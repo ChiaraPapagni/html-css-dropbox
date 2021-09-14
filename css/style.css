@@ -1,19 +1,19 @@
+/************** 
+Regola di Reset 
+**************/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Open Sans',
-        sans-serif;
-}
-
-/* debug */
-.debug #site_header {
+/************** 
+Regole di Debug 
+**************/
+/* .debug #site_header {
     height: 100px;
     background-color: bisque;
-}
+} */
 
 .debug #site_content {
     height: 2000px;
@@ -30,4 +30,78 @@ body {
     height: 500px;
     background-color: cornsilk;
     margin: auto;
+}
+
+
+/************** 
+Utility 
+**************/
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+    color: #000;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list_style {
+    list-style: none;
+}
+
+/* Links */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 20px;
+}
+
+/************** 
+Header 
+**************/
+#site_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 25px 20px;
+}
+
+#site_header .logo {
+    float: left;
+    width: 50%;
+}
+
+#site_header .logo>img {
+    float: left;
+    padding-right: 2rem;
+}
+
+#site_header .logo a {
+    margin-right: 2rem;
+}
+
+#site_header .login {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+#site_header li {
+    display: inline-block;
+}
+
+#site_header .login a {
+    margin-left: 2rem;
 }
