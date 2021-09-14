@@ -189,6 +189,10 @@ Main
     border: 1px solid #d9d9d9;
 }
 
+.small_container .circle:hover {
+    cursor: pointer;
+}
+
 .plan {
     width: 100%;
     margin: 2rem auto;
@@ -196,15 +200,18 @@ Main
 
 .plan>.col {
     float: left;
-    width: 29.5%;
+    width: 29.8%;
+    min-height: 1000px;
     border: 1px solid #d9d9d9;
+    margin-bottom: 2rem;
+
 }
 
 .plan .col:nth-child(2) {
     margin: 0 4rem;
 }
 
-.plan>.col>.title {
+.plan .title {
     text-align: center;
     border-bottom: 1px solid #d9d9d9;
     padding: 0.7rem 0;
@@ -220,7 +227,7 @@ Main
 }
 
 .plan .content {
-    padding: 2rem 2rem;
+    padding: 2rem;
     font-size: 0.95rem;
 }
 
@@ -239,6 +246,74 @@ Main
     margin: 0 0 1.5rem -1rem;
 }
 
-.plan .content a>.btn {
-    width: 100%;
+.plan .content .btn {
+    display: block;
+    text-align: center;
+    margin-top: 3.5rem;
+}
+
+.plan .content .buy {
+    margin: 1.7rem 0;
+}
+
+.plan .content .buy>span {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+.plan .content .line {
+    width: 20%;
+    border-top: 1px solid #d9d9d9;
+}
+
+.plan .content .points {
+    font-weight: 700;
+    margin: 2.5rem 0 1.7rem 0;
+}
+
+.plan .content .fa-check {
+    color: #0061ff;
+}
+
+.enterprice {
+    border: 1px solid #d9d9d9;
+}
+
+.enterprice .title {
+    text-align: center;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 0.7rem 0;
+}
+
+.enterprice .content {
+    padding: 2rem;
+    font-size: 0.95rem;
+}
+
+.enterprice .col_content {
+    float: left;
+    width: 70%;
+}
+
+.enterprice .col_btn {
+    float: left;
+    width: 30%;
+}
+
+.enterprice .content h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.enterprice .content strong {
+    font-size: 1rem;
+}
+
+.enterprice .content p {
+    margin-top: 2rem;
+}
+
+.enterprice .content .btn {
+    display: block;
+    text-align: center;
 }
