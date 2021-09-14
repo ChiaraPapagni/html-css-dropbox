@@ -8,3 +8,26 @@ body {
     font-family: 'Open Sans',
         sans-serif;
 }
+
+/* debug */
+.debug #site_header {
+    height: 100px;
+    background-color: bisque;
+}
+
+.debug #site_content {
+    height: 2000px;
+    background-color: cornflowerblue;
+}
+
+.debug #site_footer {
+    height: 400px;
+    background-color: black;
+}
+
+.debug .large_container {
+    width: 90%;
+    height: 500px;
+    background-color: cornsilk;
+    margin: auto;
+}
