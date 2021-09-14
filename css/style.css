@@ -10,10 +10,10 @@ Regola di Reset
 /************** 
 Regole di Debug 
 **************/
-/* .debug #site_header {
+.debug #site_header {
     height: 100px;
     background-color: bisque;
-} */
+}
 
 .debug #site_content {
     height: 2000px;
@@ -46,6 +46,11 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+.large_container {
+    width: 80%;
+    margin: auto;
 }
 
 .list_style {
@@ -104,4 +109,48 @@ Header
 
 #site_header .login a {
     margin-left: 2rem;
+}
+
+/************** 
+Main 
+**************/
+#site_content .container {
+    background: #B4D0E7;
+    padding: 140px 0;
+}
+
+#site_content .col_txt {
+    float: left;
+    width: 27%;
+}
+
+#site_content section>h1 {
+    font-size: 5.5rem;
+    padding-bottom: 2rem;
+}
+
+#site_content section p {
+    padding: 0 2rem 2.5rem 0;
+}
+
+#site_content section .annulla {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+#site_content section i {
+    font-size: 2.5rem;
+}
+
+#site_content .col_img {
+    float: left;
+    width: 73%;
+    position: relative;
+}
+
+#site_content .col_img>img {
+    width: 85%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
