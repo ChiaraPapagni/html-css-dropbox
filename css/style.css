@@ -63,6 +63,10 @@ div[class^="col_"] {
     float: left;
 }
 
+.col_20 {
+    width: 20%;
+}
+
 .col_30 {
     width: 30%;
 }
@@ -508,4 +512,29 @@ Main
 .hover,
 .col_30>.arrow_up {
     display: none;
+}
+
+/************** 
+Footer 
+**************/
+#site_footer {
+    width: 100%;
+    background-color: black;
+    padding: 6rem 0 2rem;
+    color: white;
+}
+
+#site_footer a {
+    color: white;
+}
+
+#site_footer ul>li {
+    font-size: 0.95rem;
+    line-height: 1.7rem;
+}
+
+#site_footer ul>li:first-child {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
 }
