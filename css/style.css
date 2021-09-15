@@ -160,6 +160,11 @@ a {
     text-align: center;
 }
 
+.btn:hover,
+.btn_outline:hover {
+    filter: opacity(0.8);
+}
+
 /************** 
 Header 
 **************/
