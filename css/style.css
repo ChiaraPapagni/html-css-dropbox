@@ -487,9 +487,25 @@ Main
 
 /* questions */
 .questions {
-    margin: 100px 0;
+    margin: 7rem 0;
 }
 
-.questions .hover {
+.questions h3 {
+    padding-bottom: 3.5rem;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.question {
+    padding: 2rem 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.question>.col_30 {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.hover,
+.col_30>.arrow_up {
     display: none;
 }
