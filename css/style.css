@@ -122,6 +122,16 @@ a {
     text-decoration: none;
 }
 
+#site_header a:hover {
+    border-bottom: 2px solid #051A55;
+    padding-bottom: 26px;
+}
+
+#site_header .btn:hover {
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+
 .blue_a {
     color: #0061ff;
     text-decoration: underline;
