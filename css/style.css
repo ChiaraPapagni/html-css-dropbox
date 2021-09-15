@@ -101,6 +101,10 @@ h2 {
 }
 
 h3 {
+    font-size: 2rem;
+}
+
+h4 {
     font-size: 1.7rem;
 }
 
@@ -133,6 +137,18 @@ a {
     background-color: #0061ff;
     color: white;
     padding: 5px 20px;
+}
+
+.btn_outline {
+    border: 1px solid #000;
+    padding: 7px 20px;
+}
+
+.btn_white {
+    display: block;
+    background-color: #fff;
+    color: black;
+    text-align: center;
 }
 
 /************** 
@@ -267,7 +283,7 @@ Main
     font-size: 0.95rem;
 }
 
-.row .content h3 {
+.row .content h4 {
     margin-bottom: 1rem;
 }
 
@@ -318,7 +334,7 @@ Main
     font-size: 0.95rem;
 }
 
-.enterprice .content h3 {
+.enterprice .content h4 {
     margin-bottom: 1rem;
 }
 
@@ -345,17 +361,12 @@ Main
     width: 90%;
 }
 
-.partner h3 {
+.partner h4 {
     margin: 2.5rem 0 1.5rem 0;
 }
 
 .partner p {
     margin-bottom: 2rem;
-}
-
-.partner .btn_outline {
-    border: 1px solid #000;
-    padding: 7px 20px;
 }
 
 /* feature */
@@ -370,7 +381,7 @@ Main
     margin: auto;
 }
 
-.feature_card>h3 {
+.feature_card>h4 {
     margin-bottom: 1rem;
 }
 
@@ -380,7 +391,7 @@ Main
 
 /* team */
 .team h2 {
-    width: 47%;
+    width: 56%;
     margin: 0 auto 2rem 0;
 }
 
@@ -400,6 +411,21 @@ Main
     width: 40%;
     height: 570px;
     background-color: #f5f5f5;
+    padding: 3rem;
+}
+
+.selected_team img {
+    width: 20%;
+}
+
+.selected_team hr {
+    width: 8%;
+    border-top: 1px solid #d9d9d9;
+    margin: 2rem 0 3rem;
+}
+
+.selected_team p {
+    margin-bottom: 4rem;
 }
 
 .teams div {
@@ -410,7 +436,7 @@ Main
 }
 
 .teams div>img {
-    width: 50%;
+    width: 40%;
     filter: grayscale(1) invert(1);
     position: absolute;
     margin: auto;
@@ -451,4 +477,19 @@ Main
 
 .clear_channel {
     background-color: #FFD830;
+}
+
+.purple {
+    background-color: #B4D0E7;
+    color: #61082B;
+    padding: 120px 0 70px 0;
+}
+
+/* questions */
+.questions {
+    margin: 100px 0;
+}
+
+.questions .hover {
+    display: none;
 }
