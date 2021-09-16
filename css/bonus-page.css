@@ -1,0 +1,212 @@
+/************** 
+Header 
+**************/
+#site_header>.clienti>.menu_left {
+    width: 20%;
+}
+
+#site_header>.clienti>.menu_right {
+    width: 80%;
+}
+
+#site_header>.clienti .btn_outline:hover {
+    border: 1px solid #000;
+    padding-bottom: 7px;
+}
+
+/************** 
+Main 
+**************/
+#site_content .clienti_image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: 75px 0;
+}
+
+#site_content .aziende h2,
+#site_content .aziende p {
+    margin: 100px 0;
+    padding: 0 6rem 3rem 6rem;
+}
+
+#site_content .loghi_aziende {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#site_content .loghi_aziende img {
+    max-height: 50px;
+    max-width: 100px;
+    height: auto;
+    width: auto;
+    margin-bottom: 6rem;
+}
+
+#site_content .stat {
+    width: 98%;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+#site_content .stat .col_33 {
+    padding: 0 5rem;
+}
+
+#site_content .stat .bold {
+    padding: 1rem 0;
+}
+
+#site_content .stat p {
+    color: #777;
+}
+
+#site_content .bg_grey {
+    background-color: #fafafa;
+    padding: 6rem 8rem 0 8rem;
+}
+
+#site_content .bg_grey ul {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#site_content .bg_grey ul>li:first-child {
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+#site_content .bg_grey ul>li {
+    display: inline-block;
+    margin-right: 2.5rem;
+    font-size: 1.1rem;
+    padding-bottom: 0.7rem;
+}
+
+#site_content .bg_grey li>a {
+    color: #777;
+}
+
+#site_content .bg_grey li>a:hover {
+    color: #000;
+}
+
+#site_content .bg_grey .train {
+    padding: 3rem 0 7rem 0;
+}
+
+.bg_grey .train img:hover {
+    cursor: pointer;
+    filter: brightness(1.4);
+}
+
+#site_content .bg_grey .train h3 {
+    padding-bottom: 2rem;
+}
+
+#site_content .ask {
+    padding: 6rem 5rem;
+}
+
+#site_content .title h2 {
+    width: 50%;
+}
+
+#site_content .ask .filtro {
+    width: 40%;
+}
+
+#site_content .ask .filtro {
+    padding: 1rem;
+    border: 1px solid #d9d9d9;
+    color: #777;
+    margin: 3rem 0 3rem 0;
+}
+
+#site_content .ask .filtro div:nth-child(2) {
+    text-align: right;
+}
+
+#site_content .ask .filtro:hover {
+    cursor: pointer;
+}
+
+#site_content .loghi_clienti>div {
+    border: 1px solid #d9d9d9;
+    width: 198px;
+    height: 198px;
+    margin: 0 1rem 1rem 0;
+    position: relative;
+
+}
+
+#site_content .loghi_clienti img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#site_content .ask .carica {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+#site_content .ask a {
+    text-decoration: underline;
+}
+
+#site_content .ask a:hover {
+    text-decoration: none;
+}
+
+#site_content .dropbox_team {
+    padding: 0 5rem 3rem 5rem;
+}
+
+#site_content .dropbox_team .bold {
+    padding: 1rem 0;
+}
+
+#site_content .dropbox_team p {
+    padding-bottom: 1rem;
+    color: #777;
+}
+
+#site_content .dropbox_team a {
+    color: #777;
+    text-decoration: underline;
+}
+
+#site_content .dropbox_team a:hover {
+    text-decoration: none;
+}
+
+#site_content .dropbox_team img:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+#site_content .blue {
+    background-color: #0d2481;
+    padding: 5rem 6rem;
+    color: white;
+}
+
+#site_content .blue h2 {
+    color: #ffd830;
+}
+
+#site_content .blue .btn {
+    margin: 1rem 0;
+}
+
+#site_content .blue a:nth-child(2) {
+    font-size: 0.9rem;
+    color: #fff;
+    text-decoration: underline;
+}
+
+#site_content .blue a:nth-child(2):hover {
+    text-decoration: none;
+}

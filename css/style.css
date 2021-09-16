@@ -81,6 +81,10 @@ div[class^="col_"] {
     width: 40%;
 }
 
+.col_50 {
+    width: 50%;
+}
+
 .col_60 {
     width: 60%;
 }
