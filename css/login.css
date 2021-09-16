@@ -1,0 +1,214 @@
+/************ 
+Common
+************/
+.login_container {
+    width: 55%;
+    margin: auto;
+}
+
+.link {
+    color: #0062ff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/************ 
+Header
+************/
+#site_header {
+    border-bottom: 1px solid #d0d4d9;
+    box-shadow: 0px 1px 1px #d0d4d9;
+    padding: 20px 0;
+}
+
+#site_header .login_container .col_33 {
+    padding: 0;
+}
+
+#site_header .login_container .br_btn,
+#site_header .login_container a {
+    vertical-align: sub;
+}
+
+#site_header .login_container .br_btn {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #0062ff;
+    border: 1px solid #0062ff;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+
+#site_header .login_container .br_btn:hover {
+    border-color: #0052d9;
+    color: #0052d9;
+}
+
+#site_header .login_container .home {
+    margin-left: 22%;
+}
+
+#site_header .login_container .logo_glyph,
+#site_header .login_container .logo_text {
+    float: left;
+}
+
+#site_header .login_container .logo_glyph {
+    width: 60px;
+    padding-right: 0.5rem;
+    margin-top: -0.7rem;
+}
+
+#site_header .login_container .logo_text {
+    width: 120px;
+}
+
+#site_header .login_container .download_app {
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+#site_header .login_container .download_app a:hover {
+    border-bottom: none;
+}
+
+/************ 
+Main
+************/
+.login_container .content {
+    width: 75%;
+    margin: 185px auto;
+    padding: 1rem;
+}
+
+.login_container .login_form {
+    padding: 1rem 0 0 2rem;
+}
+
+.login_container .login_form .accedi {
+    font-size: 1.1rem;
+}
+
+.login_container .login_form .accedi,
+.login_container .login_form .oppure {
+    color: black;
+}
+
+.login_container .login_form .oppure {
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+
+.login_container .login_form .btn_login_google,
+.login_container .login_form .btn_login_apple {
+    display: block;
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.login_container .login_form .btn_login_google {
+    margin-top: 2rem;
+    background-color: #0062ff;
+}
+
+.login_container .login_form .btn_login_apple {
+    background-color: #000;
+}
+
+.login_container .login_form .btn_login_google>i,
+.login_container .login_form .btn_login_apple>i {
+    float: left;
+    font-size: 1rem;
+    padding: 1px;
+}
+
+.login_container .login_form .btn_login_google:hover {
+    filter: opacity(0.7);
+}
+
+.login_container .login_form .or {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #000;
+    margin: 1.3rem 0;
+}
+
+.login_container .login_form .email,
+.login_container .login_form .password {
+    display: block;
+    color: #777;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 0.4rem 0.5rem;
+    margin: 1rem 0;
+}
+
+.login_container .login_form .ricordami {
+    font-size: 0.8rem;
+}
+
+.login_container .login_form .btn_accedi {
+    float: right;
+    width: auto;
+    background-color: #0062ff;
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0.2rem 0.4rem;
+}
+
+.login_container .login_form .btn_accedi:hover {
+    filter: opacity(0.7);
+}
+
+.login_container .login_form .reset {
+    font-size: 0.9rem;
+}
+
+/************ 
+Footer
+************/
+#site_footer {
+    background-color: white;
+}
+
+#site_footer>.login_container {
+    width: 55%;
+    margin-top: 600px;
+    border-top: 1px solid #d9d9d9;
+    padding: 2.5rem 1rem;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+#site_footer .login_container>div:nth-child(2) {
+    margin-right: 2rem;
+}
+
+#site_footer>.login_container li {
+    line-height: 1.3rem;
+}
+
+#site_footer>.login_container li:first-child {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+#site_footer>.login_container li>a {
+    color: #777;
+    font-size: 0.8rem;
+}
+
+#site_footer .login_container .lang {
+    color: #777;
+    float: right;
+    margin-top: 0;
+}

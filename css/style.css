@@ -64,6 +64,10 @@ div[class^="col_"] {
     float: left;
 }
 
+.col_16 {
+    width: 16.66%;
+}
+
 .col_20 {
     width: 20%;
 }
@@ -127,17 +131,17 @@ a {
     text-decoration: none;
 }
 
-#site_header a:hover {
+header a:hover {
     border-bottom: 2px solid #051A55;
     padding-bottom: 26px;
 }
 
-#site_header .btn:hover {
+header .btn:hover {
     border-bottom: none;
     padding-bottom: 5px;
 }
 
-#site_header .dropdown-content>a:hover {
+header .dropdown-content>a:hover {
     border-bottom: none;
     padding-bottom: 1rem;
 }
