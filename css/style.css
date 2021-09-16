@@ -35,6 +35,7 @@ Regole di Debug
 Common
 **************/
 body {
+    min-width: 1440px;
     font-family: 'Open Sans',
         sans-serif;
     color: #000;
@@ -496,7 +497,7 @@ Main
 
 .teams div>img {
     width: 40%;
-    filter: grayscale(1) invert(1);
+    filter: invert(1);
     position: absolute;
     margin: auto;
     top: 0;
@@ -564,9 +565,37 @@ Main
     padding-right: 2rem;
 }
 
-.hover,
 .col_30>.arrow_up {
     display: none;
+}
+
+.reply {
+    display: none;
+}
+
+.question:hover {
+    cursor: pointer;
+}
+
+.question:hover .arrow_down {
+    display: none;
+}
+
+.question:hover .arrow_up {
+    display: inline-block;
+}
+
+.question:hover .reply {
+    display: inline-block;
+}
+
+.questions .reply {
+    padding-top: 1.5rem;
+    color: #777;
+}
+
+.questions .reply a {
+    color: #777;
 }
 
 /************** 
