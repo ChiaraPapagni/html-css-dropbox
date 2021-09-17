@@ -1,17 +1,50 @@
 /************** 
 Header 
 **************/
+#site_header {
+    padding: 20px 20px 0 20px;
+}
+
 #site_header>.clienti>.menu_left {
     width: 20%;
 }
 
+#site_header .clienti .logo_glyph,
+#site_header .clienti .logo_text {
+    float: left;
+}
+
+#site_header .clienti .logo_glyph {
+    width: 44px;
+    padding-right: 0.5rem;
+    margin-top: -0.2rem;
+}
+
+#site_header .clienti .logo_text {
+    width: 120px;
+}
+
 #site_header>.clienti>.menu_right {
     width: 80%;
+    line-height: 32px;
+}
+
+#site_header>.clienti .btn_outline {
+    font-size: 0.8rem;
+    border: 1px solid #d9d9d9;
 }
 
 #site_header>.clienti .btn_outline:hover {
+    background-color: #eee;
     border: 1px solid #000;
+    filter: opacity(1);
     padding-bottom: 7px;
+    text-decoration: none;
+}
+
+#site_header .clienti a:hover {
+    text-decoration: underline;
+    border-bottom: none;
 }
 
 /************** 

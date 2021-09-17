@@ -64,6 +64,7 @@ div[class^="col_"] {
     float: left;
 }
 
+
 .col_16 {
     width: 16.66%;
 }
@@ -192,7 +193,7 @@ header .dropdown-content>a:hover {
 /************** 
 Header 
 **************/
-#site_header {
+header {
     position: fixed;
     top: 0;
     left: 0;
