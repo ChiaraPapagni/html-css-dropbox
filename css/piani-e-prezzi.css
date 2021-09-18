@@ -1,0 +1,216 @@
+/************** 
+Common 
+**************/
+.piani {
+    width: 65%;
+    margin: auto;
+}
+
+.col_15 {
+    width: 15.5%;
+}
+
+.col_22 {
+    width: 22.5%;
+}
+
+.grey_txt {
+    color: #777;
+    font-size: 0.9rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.btn_prova {
+    background-color: #0062ff;
+    padding: 0.7rem;
+    text-align: center;
+    color: white;
+}
+
+.col_15>span {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.col_15>span a {
+    text-decoration: underline;
+}
+
+/************** 
+Header 
+**************/
+#piani_header {
+    padding: 0;
+}
+
+#piani_header .logo_glyph,
+#piani_header .logo_text {
+    float: left;
+}
+
+#piani_header .logo_glyph {
+    background-color: #0062ff;
+    padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+    width: 48px;
+    height: 48px;
+}
+
+#piani_header svg {
+    fill: white;
+    width: 30px;
+}
+
+#piani_header .logo_text {
+    width: 95px;
+    margin: 0.75rem 1rem 0 1rem;
+}
+
+#piani_header .logo {
+    float: left;
+}
+
+#piani_header ul>li {
+    display: inline-block;
+    line-height: 48px;
+}
+
+#piani_header .left li,
+#piani_header .right li {
+    margin: 0 1rem;
+}
+
+#piani_header .right {
+    text-align: right;
+}
+
+#piani_header .right .btn_prezzi {
+    margin-right: 0.2rem;
+    background-color: #0062ff;
+    color: white;
+    font-weight: 700;
+    padding: 0.7rem;
+}
+
+#piani_header .right .btn_prezzi i {
+    padding-left: 1rem;
+}
+
+#piani_header li a:hover {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/************** 
+Main 
+**************/
+#piani_content .piani h3 {
+    margin-top: 60px;
+    padding: 1.8rem 0;
+}
+
+/* tabella */
+table,
+th,
+td {
+    border: 1px solid #d9d9d9;
+    border-collapse: collapse;
+    font-weight: 400;
+    margin: 50px 0 100px 0;
+}
+
+.tabella_piani .tipo_piano_titolo>th {
+    padding: 0.7rem;
+}
+
+.tabella_piani .tipo_piano_titolo>th:first-child {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.tabella_piani .tipo_piano>th {
+    height: 200px;
+
+}
+
+.tabella_piani .tipo_piano>th>.bold {
+    font-size: 1.1rem;
+}
+
+tbody {
+    font-size: 0.9rem;
+}
+
+.tabella_piani .row_tabella td {
+    padding: 2rem 1rem;
+    font-size: 1.1rem;
+}
+
+.tabella_piani .row_tipo_piano_content {
+    height: 50px;
+}
+
+.tabella_piani .row_tipo_piano_content>td {
+    padding: 1rem;
+}
+
+.tabella_piani .row_tipo_piano_content .col_22>p {
+    float: left;
+    width: 80%;
+    margin-left: 1rem;
+}
+
+.tabella_piani .row_tipo_piano_content .col_22>i {
+    float: right;
+    width: 5%;
+    margin: 2px 10px 0 0;
+}
+
+.tabella_piani .col_22>i {
+    color: #c1c7cd;
+    font-size: 1rem;
+}
+
+.tabella_piani .col_15 {
+    text-align: center;
+}
+
+.tabella_piani .col_15>.fa-check {
+    color: #0062ff;
+}
+
+.tabella_piani .col_15>.fa-times {
+    color: #c1c7cd;
+    font-size: 1rem;
+}
+
+.row_tipo_piano_content .col_22>div {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.row_tipo_piano_content .col_22>div>input {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    vertical-align: bottom;
+}
+
+.row_tipo_piano_content .col_15>.grey_txt {
+    margin: 0;
+}
+
+.row_tipo_piano_content .col_15>.price {
+    display: block;
+    margin: 1rem 0 2rem 0;
+}
+
+/************** 
+Footer 
+**************/
+#site_footer .piani_footer_container {
+    width: 60%;
+    margin: auto;
+}
